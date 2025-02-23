@@ -1,0 +1,62 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif; /* Fuente */
+    background-color: #f4f4f4; /* Color de fondo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Centra verticalmente */
+    margin: 0;
+}
+
+/* Contenedor principal */
+.container {
+    text-align: center;
+    background-color: #fff; /* Fondo blanco */
+    padding: 20px;
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+/* Estilos del temporizador */
+#timer {
+    font-size: 3rem; /* Tamaño grande */
+    font-weight: bold;
+    margin: 20px 0;
+    color: #333; /* Color oscuro */
+}
+
+/* Estilos de los botones */
+.controls button {
+    font-size: 1rem;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    background-color: #28a745; /* Color verde */
+    color: white;
+}
+
+.controls button:hover {
+    background-color: #218838; /* Color verde oscuro al pasar el ratón */
+}
+
+/* Estilo específico para el botón de pausa */
+#pause {
+    background-color: #dc3545; /* Color rojo */
+}
+
+#pause:hover {
+    background-color: #c82333; /* Color rojo oscuro al pasar el ratón */
+}
+
+/* Estilo específico para el botón de reiniciar */
+#reset {
+    background-color: #ffc107; /* Color amarillo */
+    color: #333;
+}
+
+#reset:hover {
+    background-color: #e0a800; /* Color amarillo oscuro al pasar el ratón */
+}
